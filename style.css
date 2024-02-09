@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*exercice 1 question 1*/
+h1{
+    color: red;
+    text-align: center;
+    
+    
+}
+/*exercice 1 question 2*/
+
+article h2{
+    text-decoration: underline;
+}
+/*exercice 1 question 3*/
+article section h2{
+    color: green;
+}
+
+
+/*exercice 3 question 1*/
+.munu{
+    background-color: pink;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top:20px;
+
+}
+.about{
+   font-size: 20px;
+   text-align: center;
+   background-color: violet;
+   margin-top: -5px;
+   margin-bottom: -5px;
+   height: 30px;
+   width:70px ;
+
+   
+}
+
+
+.menu{
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(99, 14, 179);
+}
+.menu:hover{
+    color:rgb(178, 123, 230) ;
+}
+/*exercice 4 question 1*/
+.page{
+    background-color: white;
+    height: 400px;
+    width: 70%;
+    border: solid black;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+/*exercice 4 question 2 ET 3*/
+.top{
+  display: flex;
+  justify-content:space-between ;
+}
+.center{
+   margin-top:46px ;
+   margin-left: 40%;
+}
+.bottom{
+    margin-top: 50px;
+    
+}
+.img{
+    margin-left: 705px;
+}
+/*exercice 5 question 1*/
+#boite{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px; 
+    animation-name: redBox;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+@keyframes redBox{
+    0%{
+        left: 10px;  
+    }
+
+    50%{
+        transform: translateX(400px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
+/*exercice 5 */
+.zzz{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(29, 191, 224);
+}
+.zzz:hover{
+    transform: translateX(100px) translateY(100px) rotate(40deg);
+}
+
+@media (max-width:700px){
+
+    .zzzdiv{
+        background-color: red;
+    }
+}
